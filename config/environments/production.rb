@@ -78,7 +78,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   #Fazer configuraco para a gem devise - ver em documentacao da gem
-  #config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'fotosola4.herokuapp.com' }
   
   
 end
